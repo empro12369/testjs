@@ -147,9 +147,7 @@ function edit(index){
     // }
 
 
-    var buttonDiv = document.createElement("div");
-    buttonDiv.style.width = "100%";
-    buttonDiv.id = "parentButton";
+
   
     
 
@@ -159,7 +157,7 @@ function edit(index){
 var btn = document.createElement("div");
   btn.innerHTML = "<button onclick='luuB()'>LuuB</button><button onclick='luuG()'>LuuG</button>";
 document.getElementsByClassName("note")[0].appendChild(btn);
-document.body.appendChild(btn);
+
 
 
 
